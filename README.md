@@ -41,3 +41,89 @@ Analysis of AI generated code for pair sum problem and improved implementation.
 - File Handling
 - Nested Lists
 - Matrix Operations
+
+## Part B — Matrix Operations
+
+This section implements basic matrix operations using Python lists.
+
+File: `matrix_ops.py`
+
+### Functions Implemented
+
+1. **Matrix Addition**
+
+Adds two matrices element-wise.
+
+Example:
+
+A = [[1,2],
+     [3,4]]
+
+B = [[5,6],
+     [7,8]]
+
+Result:
+
+[[6,8],
+ [10,12]]
+
+---
+
+2. **Matrix Transpose**
+
+Converts rows into columns.
+
+Example:
+
+Matrix:
+
+[[1,2],
+ [3,4]]
+
+Transpose:
+
+[[1,3],
+ [2,4]]
+
+---
+
+3. **Matrix Multiplication**
+
+Each element is calculated using the dot product of rows and columns.
+
+Example:
+
+A × B
+
+[[19,22],
+ [43,50]]
+
+---
+
+### Concepts Used
+
+- Nested Lists
+- List Comprehension
+- `zip()` function
+- Matrix arithmetic logic
+
+---
+
+### Output File
+
+The results and explanation of matrix operations are stored in:
+
+`part_B.txt`
+
+
+## Part C — Interview Questions
+
+File: `part_C.md`
+
+This section answers conceptual and coding interview questions related to lists.
+
+Topics Covered:
+
+- Difference between Shallow Copy and Deep Copy
+- List Rotation using slicing
+- Debugging a Python list modification bug
