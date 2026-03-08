@@ -127,3 +127,18 @@ Topics Covered:
 - Difference between Shallow Copy and Deep Copy
 - List Rotation using slicing
 - Debugging a Python list modification bug
+
+## Part D — AI Augmented Task
+
+File: `ai_pair_sum.md`
+
+This section analyzes AI generated Python code that finds pairs in a list that sum to a target value.
+
+Steps included:
+
+- AI prompt
+- Generated solution
+- Testing results
+- Identified issues
+- Improved optimized solution using sets
+- Complexity analysis
