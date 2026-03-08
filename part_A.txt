@@ -1,0 +1,53 @@
+PART A — Student Management System
+
+Data Structure
+Student records are stored as a list of lists.
+
+Example:
+[
+ ["Aman", "Math", 88],
+ ["Priya", "Physics", 91],
+ ["Rahul", "Math", 76]
+]
+
+Functions Implemented
+
+1. add_student(name, subject, marks)
+Adds a new student record using append.
+Prevents duplicate name + subject combinations.
+
+2. get_toppers(subject)
+Returns top 3 students of a subject.
+Uses sorted(records, key=lambda x: x[2], reverse=True).
+
+3. class_average(subject)
+Calculates average marks of a subject.
+Uses list comprehension.
+
+4. above_average_students()
+Returns students scoring above the overall class average.
+
+5. remove_student(name)
+Removes all records of a student using list comprehension.
+
+Menu System
+
+1 Add student
+2 Show toppers
+3 Show class average
+4 Show above average students
+5 Remove student
+6 Exit
+
+File Saving
+
+When the program exits it saves all records to students.txt using file write operations.
+
+Concepts Demonstrated
+
+• list append  
+• list comprehension  
+• sorting with key  
+• filtering lists  
+• file read/write  
+• slicing and list operations
